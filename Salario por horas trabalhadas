@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdio.h>
+int main(){
+    float horas, hmes, soma,soma2;
+
+    printf("Digite o valor da hora de trabalho em Reais\n");
+    scanf("%f",&horas);
+
+    printf("Qual o numero de horas trabalhadas no mes\n");
+    scanf("%f",&hmes);
+
+    soma = horas * hmes;
+
+    soma2 = soma / 10;
+    soma = soma2 + soma;
+
+    printf("O funcionario vai receber R$ %.2f\n",soma);
+
+    return 0;
+}
